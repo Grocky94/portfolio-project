@@ -1,12 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    #start {
+        /* border: 1px solid red; */
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: lightblue;
+
+    }
+
+    #left-side-start {
+        /* border: 1px solid red; */
+        height: 500px;
+        width: 40%;
+    }
+
+    #right-side-start {
+        /* border: 1px solid red; */
+        height: 500px;
+        width: 40%;
+    }
+
+    #left-nav-up {
+        /* border: 1px solid red; */
+        height: 120px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+
+    #left-nav-up>div {
+        margin-top: 25px;
+        font-size: 10px;
+    }
+
+    #left-nav-up>div:hover {
+        color: aqua;
+
+    }
+
+    #left-nav-dwn {
+        /* border: 1px solid red; */
+        height: 250px;
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    #left-nav-dwn>:nth-child(1) {
+        /* border: 1px solid red; */
+        display: flex;
+    }
+
+    #left-nav-dwn>:nth-child(1)>img {
+        /* border: 1px solid red; */
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+    }
+
+    #left-nav-dwn>:nth-child(1)>button {
+        border-radius: 15px;
+        height: 30px;
+        width: 200px;
+        margin-top: 30px;
+        border: none;
+
+    }
+
+    #left-nav-dwn>:nth-child(2) {
+        color: blue;
+        border-radius: 15px;
+        height: 35px;
+        width: 300px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    #left-nav-dwn>:nth-child(4) {
+        color: white;
+        border-radius: 15px;
+        height: 35px;
+        width: 100px;
+        margin-top: 20px;
+        border: none;
+        background-color: lightgreen;
+    }
+
+    #right-nav-up>div {
+        display: flex;
+        justify-content: right;
+    }
+
+    #right-nav-up>div>div:nth-child(1) {
+        border: 1px solid white;
+        height: 26px;
+        width: 26px;
+        border-radius: 13px;
+        background-color: white;
+        margin-right: 5px;
+    }
+
+    #right-nav-up>div>div:nth-child(1)>i {
+        margin-top: 6.5px;
+        margin-left: 4px;
+    }
+
+    #right-nav-up>div>button {
+        border-radius: 20px;
+        color: white;
+        font-size: 15px;
+        border: 1px solid white;
+        background-color: lightblue;
+    }
+
+    #right-nav-dwn>div{
+        /* border:1px solid red; */
+        height:300px;
+        width:300px;
+        border-radius: 150px;
+        margin-top:50px;
+        margin-left: 200px;
+        background-color: white;
+        
+    }
+
+    #right-nav-dwn>div>img {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        top:20px;
+        right: 60px;
+        /* border: 1px solid white; */
+    }
+</style>
+
 <body>
-    
+
+    <Div id="start">
+        <div id="left-side-start">
+            <div id="left-nav-up">
+                <h3>First</h3>
+                <div>HOME</div>
+                <div>ABOUT</div>
+                <div>SERVICE</div>
+                <div>PROJECTS</div>
+                <div>CONTACT</div>
+            </div>
+            <div id="left-nav-dwn">
+                <div>
+                    <img src="/templatemo_578_first_portfolio/images/happy-bearded-young-man.jpg" alt="image"></img>
+                    <button>Hello Friend!</button>
+                </div>
+                <button>I'm available for freelancing work.</button>
+                <br>
+                <button> Let`s begin </button>
+            </div>
+        </div>
+        <div id=right-side-start>
+            <div id="right-nav-up">
+                <div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <button>120-240-9600</button>
+                </div>
+            </div>
+            <div id="right-nav-dwn">
+                <div>
+                    <img src="/templatemo_578_first_portfolio/images/portrait-happy-excited-man-holding-laptop-computer.png"
+                        alt>
+                </div>
+            </div>
+        </Div>
+
+
 </body>
+
 </html>
