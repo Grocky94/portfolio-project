@@ -125,24 +125,96 @@
         background-color: lightblue;
     }
 
-    #right-nav-dwn>div{
+    #right-nav-dwn>div {
         /* border:1px solid red; */
-        height:300px;
-        width:300px;
+        height: 300px;
+        width: 300px;
         border-radius: 150px;
-        margin-top:50px;
+        margin-top: 50px;
         margin-left: 200px;
         background-color: white;
-        
+
     }
 
     #right-nav-dwn>div>img {
         height: 400px;
         width: 400px;
         position: relative;
-        top:20px;
+        top: 20px;
         right: 60px;
         /* border: 1px solid white; */
+    }
+
+    #story {
+        /* border: 1px solid red; */
+        height: 600px;
+        width: 100%;
+    }
+
+    #story-body {
+        height: 500px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 50px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #story-left {
+        height: 500px;
+        width: 40%;
+        /* border: 1px solid red; */
+
+    }
+
+    #story-left>img {
+        height: 500px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #story-rt {
+        height: 500px;
+        width: 40%;
+        /* border: 1px solid red; */
+    }
+
+    #story-rt-hd {
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        background-color: lightblue;
+
+    }
+
+    #story-rt-hd>h1 {
+        color: white;
+        margin-top: 71px;
+        margin-right: 25px;
+    }
+
+    #story-rt-hd>img {
+        height: 180px;
+        width: 35%;
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        border-radius: 100px;
+        margin-right: 50px;
+
+    }
+
+    #story-brf {
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #story-brf> strong{
+        font-size: 30px;
     }
 </style>
 
@@ -184,8 +256,32 @@
                 </div>
             </div>
         </Div>
+    </Div>
 
-
+    <div id="story">
+        <div id="story-body">
+            <div id="story-left">
+                <img src="/templatemo_578_first_portfolio/images/couple-working-from-home-together-sofa.jpg"
+                    alt="image">
+            </div>
+            <div id="story-rt">
+                <div id="story-rt-hd">
+                    <h1>My Story</h1><img src="/templatemo_578_first_portfolio/images/happy-bearded-young-man.jpg"
+                        alt="image">
+                </div>
+                <div id="story-brf">
+                    <strong>A little bit about Joshua</strong>
+                    <p>This one-page HTML profolio is provided by TemplateMO. This layout is
+                        <br>based on Bootstrap v5.1.3. CSS and JS libraries. Image credits go to
+                        <br>Unsplash and FreePik for images used in this page.<br>
+                    </p>
+                    <p>You are allowed to use this template for your websites. You are not
+                        <br>allowed to redistribute the template zip file on any other website.
+                        <br>Please contact us for more info.
+                    </p>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
